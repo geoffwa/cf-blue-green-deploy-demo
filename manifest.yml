@@ -1,0 +1,5 @@
+---
+applications:
+  - name: blue-green-demo
+    buildpack: ruby_buildpack
+    command: bundle exec ./app.rb
